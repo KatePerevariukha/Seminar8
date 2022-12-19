@@ -57,6 +57,7 @@ int[] size = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
 int[, ] matrix = new int[size[0], size[1]];
 InputMatrix(matrix);
 ReleaseMatrix(matrix);
+
 int line = SumLineMatrix (matrix);
 
 Console.WriteLine ($"Наименьшая сумма элементов в {line} строке");
