@@ -1,0 +1,15 @@
+C:\FilesGB\Sem8\Seminar8\60\bin\Debug\net6.0\60.exe
+C:\FilesGB\Sem8\Seminar8\60\bin\Debug\net6.0\60.deps.json
+C:\FilesGB\Sem8\Seminar8\60\bin\Debug\net6.0\60.runtimeconfig.json
+C:\FilesGB\Sem8\Seminar8\60\bin\Debug\net6.0\60.dll
+C:\FilesGB\Sem8\Seminar8\60\bin\Debug\net6.0\60.pdb
+C:\FilesGB\Sem8\Seminar8\60\obj\Debug\net6.0\60.csproj.AssemblyReference.cache
+C:\FilesGB\Sem8\Seminar8\60\obj\Debug\net6.0\60.GeneratedMSBuildEditorConfig.editorconfig
+C:\FilesGB\Sem8\Seminar8\60\obj\Debug\net6.0\60.AssemblyInfoInputs.cache
+C:\FilesGB\Sem8\Seminar8\60\obj\Debug\net6.0\60.AssemblyInfo.cs
+C:\FilesGB\Sem8\Seminar8\60\obj\Debug\net6.0\60.csproj.CoreCompileInputs.cache
+C:\FilesGB\Sem8\Seminar8\60\obj\Debug\net6.0\60.dll
+C:\FilesGB\Sem8\Seminar8\60\obj\Debug\net6.0\refint\60.dll
+C:\FilesGB\Sem8\Seminar8\60\obj\Debug\net6.0\60.pdb
+C:\FilesGB\Sem8\Seminar8\60\obj\Debug\net6.0\60.genruntimeconfig.cache
+C:\FilesGB\Sem8\Seminar8\60\obj\Debug\net6.0\ref\60.dll
