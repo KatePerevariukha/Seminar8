@@ -1,17 +1,21 @@
-﻿int[,] firstMartrix = new int[4, 4];
+﻿int m = InputNumbers("Введите число строк матрицы: ");
+int p = InputNumbers("Введите число столбцов матрицы: ");
+
+
+int[,] firstMartrix = new int[m, p];
 CreateArray(firstMartrix);
 Console.WriteLine($"\nПервая матрица:");
 WriteArray(firstMartrix);
 
-int[,] secomdMartrix = new int[4, 4];
+int[,] secomdMartrix = new int[m, p];
 CreateArray(secomdMartrix);
 Console.WriteLine($"\nВторая матрица:");
 WriteArray(secomdMartrix);
 
-int[,] resultMatrix = new int[4, 4];
+int[,] resultMatrix = new int[m,p];
 
 MultiplyMatrix(firstMartrix, secomdMartrix, resultMatrix);
-Console.WriteLine($"\nПроизведение этих двух матриц:");
+Console.WriteLine($"\nПроизведение первой и второй матриц:");
 WriteArray(resultMatrix);
 
 void MultiplyMatrix(int[,] firstMartrix, int[,] secomdMartrix, int[,] resultMatrix)
@@ -23,13 +27,19 @@ void MultiplyMatrix(int[,] firstMartrix, int[,] secomdMartrix, int[,] resultMatr
       int sum = 0;
       for (int k = 0; k < firstMartrix.GetLength(1); k++)
       {
-        sum += firstMartrix[i,k] * secomdMartrix[k,j];
+        sum = firstMartrix[i,j] * secomdMartrix[i,j];
       }
       resultMatrix[i,j] = sum;
     }
   }
 }
 
+int InputNumbers(string input)
+{
+  Console.Write(input);
+  int output = Convert.ToInt32(Console.ReadLine());
+  return output;
+}
 
 void CreateArray(int[,] array)
 {
@@ -37,7 +47,7 @@ void CreateArray(int[,] array)
   {
     for (int j = 0; j < array.GetLength(1); j++)
     {
-      array[i, j] = new Random().Next(1,5);
+      array[i, j] = new Random().Next(1, 11);
     }
   }
 }
